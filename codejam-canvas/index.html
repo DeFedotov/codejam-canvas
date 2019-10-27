@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="menu"></div>
+        <p class="title">CodeJam - Palette</p>
+        <div class="icon"></div>
+    </header>
+    <main class="main">
+        <section class="left">
+            <div class="sheet1">
+                <div class="paint_bucket"></div>
+                <div class="choose_color"></div>
+                <div class="divider"></div>
+                <div class="move"></div>
+                <div class="transform"></div>
+            </div>
+            <div class="sheet2">
+                <div class="current_color"></div>
+                <div class="prev_color"></div>
+                <div class="divider"></div>
+                <div class="red"></div>
+                <div class="blue"></div>
+            </div>
+        </section>
+        <section class="middle">
+            <canvas id="canvas" width="512" height="512"></canvas>
+        </section>
+        <section class="right">
+            <div class="sheet3">
+                <div class="x4"><a href="#">4x4</a></div>
+                <div class="x32"><a href="#">32x32</a></div>
+                <div class="image"><a href="#">image</a></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
